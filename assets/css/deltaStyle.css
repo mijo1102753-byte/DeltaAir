@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   z-index: 200;
+  display: none;
 }
 #mNav button i.fa-bars {
   color: #fff;
