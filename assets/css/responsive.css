@@ -23,6 +23,9 @@
   }
 }
 @media (max-width: 960px) {
+  #mNav {
+    display: block;
+  }
   .nav {
     display: none;
   }
@@ -154,9 +157,6 @@
   .footer_menu ul {
     width: 100%;
   }
-  .footer_menu ul li {
-    display: none;
-  }
   .footer_menu ul li.firstMenu {
     display: block;
     border-bottom: 1px solid #ddd;
@@ -166,6 +166,10 @@
   }
   .footer_menu ul li.firstMenu i {
     display: inline-block;
+    cursor: pointer;
+  }
+  .footer_menu ul.footer_dropdown {
+    display: none;
   }
   .delta_desc {
     margin-top: 20px;
@@ -202,5 +206,9 @@
   }
   .title {
     font-size: 24px;
+  }
+  i.fa-bed,
+  i.fa-car {
+    font-size: 22px;
   }
 }
