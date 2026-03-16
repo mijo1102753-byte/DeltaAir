@@ -1,22 +1,25 @@
 /* layout */
 /***** mNav-start! *****/
 #mNav {
-  width: 50%;
+}
+#mNav button {
+  padding: 15px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 200;
-  display: none;
-}
-#mNav button {
-  padding: 15px;
 }
 #mNav button i.fa-bars {
   color: #fff;
   font-size: 30px;
 }
 #mNav nav {
-  width: 100%;
+  padding: 15px;
+  position: fixed;
+  top: 63px;
+  left: 0;
+  z-index: 200;
+  width: 50%;
   background-color: rgb(202, 202, 221);
   padding: 5% 10%;
   box-sizing: border-box;
@@ -29,7 +32,7 @@
   transform: translateX(0%);
 }
 #mNav nav ul:nth-child(1) {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #918e8e;
   margin-bottom: 20px;
 }
 #mNav nav ul li {
